@@ -281,7 +281,7 @@ const NotFound = () => (
     </svg>
     <h1 className="mt-4 text-white not-found">PAGE NOT FOUND</h1>
     <p className="not-found-solution">
-      we’re sorry, the page you requested could not be found Please go back to
+      we’re sorry, the page you requested could not be foundPlease go back to
       the homepage
     </p>
   </div>

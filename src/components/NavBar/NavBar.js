@@ -32,9 +32,9 @@ class NavBar extends Component {
               <Link className="nav-link" to="/">
                 Home
               </Link>
-              <Link className="nav-link" to="/about">
+              {/* <Link className="nav-link" to="/about">
                 About
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
