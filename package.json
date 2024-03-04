@@ -19,6 +19,7 @@
     "chart.js": "3.4.1",
     "date-fns": "2.22.1",
     "object-path": "0.11.5",
+    "package.json": "2.0.1",
     "react": "17.0.1",
     "react-bar-chart": "0.1.2",
     "react-bootstrap": "1.6.1",
@@ -44,8 +45,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
